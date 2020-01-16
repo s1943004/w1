@@ -11,6 +11,7 @@
 
 ############################
 from math import sqrt
+
 ############################
 
 def distance(n):
@@ -26,6 +27,11 @@ def distance(n):
                     else:
                         distance = sqrt((k-i)**2+(j-m)**2)
                         print('{0},{1} to {2},{3} distance {4}'.format(i,j,k,m,distance))
-                
+   
+############################
+                        
 if __name__ == '__main__':
-    distance(8)
+    """
+    Main block
+    """
+    distance(8) #call the looping function
