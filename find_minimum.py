@@ -53,3 +53,4 @@ if __name__ == '__main__':
     Main block
     """
     findMini(100) # call the 
+    
